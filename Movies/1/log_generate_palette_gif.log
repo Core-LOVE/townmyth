@@ -1,0 +1,174 @@
+ffmpeg version n4.3.1-20-g8a2acdc6da Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 9.3-win32 (GCC) 20200320
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --enable-iconv --enable-zlib --enable-libxml2 --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libvmaf --disable-vulkan --enable-libvorbis --enable-amf --enable-libaom --enable-avisynth --enable-libdav1d --enable-ffnvcodec --enable-cuda-llvm --disable-libglslang --enable-libass --enable-libbluray --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvpx --enable-libwebp --enable-libmfx --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librav1e --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libtwolame --enable-libvidstab --enable-libx264 --enable-libx265 --enable-libxvid --enable-libzimg --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-libs=-lgomp
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+  libpostproc    55.  7.100 / 55.  7.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'D:/Temp/KritaFFmpegProgress.SjYapf'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '17'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'D:/MyGames/Townmyth/Movies/1/frame%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (set video filters) with argument 'palettegen'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/MyGames/Townmyth/Movies/1/palette.png' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument D:/Temp/KritaFFmpegProgress.SjYapf.
+[file @ 000000b188a17e00] Setting default whitelist 'file,crypto,data'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/MyGames/Townmyth/Movies/1/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 17.
+Successfully parsed a group of options.
+Opening an input file: D:/MyGames/Townmyth/Movies/1/frame%04d.png.
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0000.png' for reading
+[file @ 000000b188a189c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b188a18b00] Statistics: 160687 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0001.png' for reading
+[file @ 000000b188a189c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b188a18b00] Statistics: 160687 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0002.png' for reading
+[file @ 000000b188a18a80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18aa1db80] Statistics: 160628 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0003.png' for reading
+[file @ 000000b188a18a80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18aa1dd40] Statistics: 160573 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0004.png' for reading
+[file @ 000000b188a18a80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18aa45300] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0005.png' for reading
+[file @ 000000b188a18a80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18aa6c9c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0006.png' for reading
+[file @ 000000b188a18a80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18a61f500] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0007.png' for reading
+[file @ 000000b188a18a80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18a61f6c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0008.png' for reading
+[file @ 000000b188a18a80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18a621080] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0009.png' for reading
+[file @ 000000b18a621080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18a621180] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0010.png' for reading
+[file @ 000000b18a621080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18a621180] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0011.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0012.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0013.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0014.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0015.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0016.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0017.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0018.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0019.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0020.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0021.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0022.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0023.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0024.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+[image2 @ 000000b18a595280] Opening 'D:/MyGames/Townmyth/Movies/1/frame0025.png' for reading
+[file @ 000000b18ab68600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b18ab686c0] Statistics: 160928 bytes read, 0 seeks
+Input #0, image2, from 'D:/MyGames/Townmyth/Movies/1/frame%04d.png':
+  Duration: 00:00:01.04, start: 0.000000, bitrate: N/A
+    Stream #0:0, 26, 1/25: Video: png, 1 reference frame, rgba(pc), 544x416 [SAR 3937:3937 DAR 17:13], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url D:/MyGames/Townmyth/Movies/1/palette.png.
+Applying option vf (set video filters) with argument palettegen.
+Successfully parsed a group of options.
+Opening an output file: D:/MyGames/Townmyth/Movies/1/palette.png.
+Successfully opened the file.
+detected 4 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 4 times
+[graph 0 input from stream 0:0 @ 000000b18aa1dcc0] Setting 'video_size' to value '544x416'
+[graph 0 input from stream 0:0 @ 000000b18aa1dcc0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000000b18aa1dcc0] Setting 'time_base' to value '1/17'
+[graph 0 input from stream 0:0 @ 000000b18aa1dcc0] Setting 'pixel_aspect' to value '3937/3937'
+[graph 0 input from stream 0:0 @ 000000b18aa1dcc0] Setting 'frame_rate' to value '17/1'
+[graph 0 input from stream 0:0 @ 000000b18aa1dcc0] w:544 h:416 pixfmt:rgba tb:1/17 fr:17/1 sar:3937/3937
+[format @ 000000b18a5f7b40] Setting 'pix_fmts' to value 'rgb24|rgba|rgb48be|rgba64be|pal8|gray|ya8|gray16be|ya16be|monob'
+[auto_scaler_0 @ 000000b188a1a840] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 000000b188a1a840] w:iw h:ih flags:'bicubic' interl:0
+[Parsed_palettegen_0 @ 000000b18aa45280] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_palettegen_0'
+[auto_scaler_1 @ 000000b188a19140] Setting 'flags' to value 'bicubic'
+[auto_scaler_1 @ 000000b188a19140] w:iw h:ih flags:'bicubic' interl:0
+[format @ 000000b18a5f7b40] auto-inserting filter 'auto_scaler_1' between the filter 'Parsed_palettegen_0' and the filter 'format'
+[AVFilterGraph @ 000000b18ab67dc0] query_formats: 4 queried, 1 merged, 2 already done, 0 delayed
+[auto_scaler_1 @ 000000b188a19140] picking rgba out of 10 ref:bgra alpha:1
+[swscaler @ 000000b18aec1fc0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 000000b188a1a840] w:544 h:416 fmt:rgba sar:3937/3937 -> w:544 h:416 fmt:bgra sar:1/1 flags:0x4
+[swscaler @ 000000b18aecef40] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 000000b188a19140] w:16 h:16 fmt:bgra sar:1/1 -> w:16 h:16 fmt:rgba sar:1/1 flags:0x4
+Output #0, image2, to 'D:/MyGames/Townmyth/Movies/1/palette.png':
+  Metadata:
+    encoder         : Lavf58.45.100
+    Stream #0:0, 0, 1/17: Video: png, 1 reference frame, rgba, 16x16 [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 17 fps, 17 tbn, 17 tbc
+    Metadata:
+      encoder         : Lavc58.91.100 png
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 25 times
+[Parsed_palettegen_0 @ 000000b18aa45280] 255(+1) colors generated out of 9246 colors; ratio=0.027579
+[Parsed_palettegen_0 @ 000000b18aa45280] Dupped color: FF0F0C19
+[Parsed_palettegen_0 @ 000000b18aa45280] Dupped color: FF5B5E63
+[Parsed_palettegen_0 @ 000000b18aa45280] Dupped color: FF5D6066
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+Clipping frame in rate conversion by 0.000008
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[out_0_0 @ 000000b18a5f7a40] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[image2 @ 000000b18a621680] Opening 'D:/MyGames/Townmyth/Movies/1/palette.png' for writing
+[file @ 000000b18aea6c80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000b188a18a80] Statistics: 0 seeks, 1 writeouts
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.05 bitrate=N/A speed=0.296x    
+[AVIOContext @ 000000b18a595140] Statistics: 0 seeks, 1 writeouts
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Input file #0 (D:/MyGames/Townmyth/Movies/1/frame%04d.png):
+  Input stream #0:0 (video): 26 packets read (4182991 bytes); 26 frames decoded; 
+  Total: 26 packets (4182991 bytes) demuxed
+Output file #0 (D:/MyGames/Townmyth/Movies/1/palette.png):
+  Output stream #0:0 (video): 1 frames encoded; 1 packets muxed (965 bytes); 
+  Total: 1 packets (965 bytes) muxed
+26 frames successfully decoded, 0 decoding errors
